@@ -1,17 +1,22 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'POS - Disable PDF Invoice Download',
+    'name': 'POS - Deshabilitar Descarga Factura',
     'category': 'Point of Sale',
-    'summary': """This module allows you to enable or disable the automatic download of PDF invoices in the POS.
-    keywords: 'Disable PDF invoice download | POS invoice download | Odoo POS invoice | PDF invoice POS | Disable download',""",
-    'description': "Adds a setting in the POS configuration to control whether PDF invoices can be downloaded after order validation.",
-    'author': 'Dustin Mimbela',
+    'summary': """Este módulo permite habilitar o deshabilitar la funcionalidad de descarga de la factura de la
+    orden como un PDF en el sistema Odoo POS. Proporciona flexibilidad para las empresas que no requieren facturas PDF
+    para cada venta, mejorando la eficiencia y simplificando el proceso POS.
+    keywords: 'Deshabilitar Descarga Factura | POS factura descarga | Odoo POS factura | PDF factura POS | Descargar factura',""",
+    'description': """Este módulo permite habilitar o deshabilitar la funcionalidad de descarga de la factura de la
+    orden como un PDF en el sistema Odoo POS. Proporciona flexibilidad para las empresas que no requieren facturas PDF
+    para cada venta, mejorando la eficiencia y simplificando el proceso POS.
+    """,
+    'author': 'z99sys',
     'version': '1.0',
     'depends': ['point_of_sale', 'account'],
     'assets': {
         'point_of_sale._assets_pos': [
-            'pos_disable_invoice_download/static/src/**/*'
+            'pos_deshabilitar_factura_descarga/static/src/**/*'
         ],
     },
     'data':  ['views/pos.xml'],
