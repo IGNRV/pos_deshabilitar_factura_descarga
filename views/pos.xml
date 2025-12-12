@@ -12,9 +12,9 @@
                             <field name="pos_allow_pdf_download"/>
                         </div>
                         <div class="o_setting_right_pane">
-                            <label for="pos_allow_pdf_download" string="Allow PDF Download"/>
+                            <label for="pos_allow_pdf_download" string="Permitir Descarga PDF"/>
                             <div class="text-muted">
-                                Enable this option to allow downloading the order receipt as a PDF.
+                                Habilitar esta opción para permitir descargar la factura de la orden como un PDF.
                             </div>
                         </div>
                     </div>
