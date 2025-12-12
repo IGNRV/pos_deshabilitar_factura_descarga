@@ -13,15 +13,20 @@
     """,
     'author': 'z99sys',
     'version': '1.0',
+
+    # === PRECIO ODOO APP STORE ===
+    'price': 20,
+    'currency': 'USD',
+
     'depends': ['point_of_sale', 'account'],
     'assets': {
         'point_of_sale._assets_pos': [
             'pos_deshabilitar_factura_descarga/static/src/**/*'
         ],
     },
-    'data':  ['views/pos.xml'],
+    'data': ['views/pos.xml'],
     'installable': True,
     'auto_install': False,
     "license": "LGPL-3",
-    "images":["static/description/banner.png"],
+    "images": ["static/description/banner.png"],
 }
